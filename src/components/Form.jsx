@@ -10,7 +10,7 @@ const Form =()=>(
                 <input name="First-name" type="text" placeholder="Nombre del paciente"/>
                 <input name="Last-name" type="text" placeholder="Apellido del paciente"/>
                 <select name="type">
-                    <option disable selected>Seleccionar</option>
+                    <option disable="true" value="seleccionar">Seleccionar</option>
                     <option value="child">Niño</option>
                     <option value="teen">
                         Adolescente
@@ -18,7 +18,7 @@ const Form =()=>(
                     <option value="adult">Adulto</option>
                 </select>
                 <select name="gender">
-                    <option disable selected>Seleccionar</option>
+                    <option disable="true" value ="seleccionar">Seleccionar</option>
                     <option value="male">Hombre</option>
                     <option value="female">
                         Mujer

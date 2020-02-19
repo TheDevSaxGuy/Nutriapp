@@ -1,14 +1,18 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
+import Nav from '../components/Nav';
 const Header = ()=>(
     <div className="Header">
         <div className="Header-container">
             <div className="Header-content">
                 <div className="Header-logo">
-                    Logo
+                    <Link to ="/">
+                    <img src="https://i.imgur.com/gX9QbOu.pngs" alt="nutricion"/>
+                    </Link>
+                    <h1>Nutricion</h1>
                 </div>
                 <div className="Header-nav">
-                    Menu
+                    <Nav/>
                 </div>
             </div>
         </div>
